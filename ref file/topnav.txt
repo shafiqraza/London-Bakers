@@ -1,0 +1,161 @@
+							H T M L       C O D E S
+===============================================================================================================================
+
+
+
+    <div class="container-fluid">
+        <div class="main-top-nav">
+            <div class="logo-sec">
+                <img src="images/logo/london-01.png" alt="Brand logo" class="brand-name">
+            </div>
+            <div class="nav-sec">
+                <nav>
+                    <ul>
+                    <li><a href="#">Home</a></li>
+                  <li class="product"><a href="#">Products</a><i class="fas fa-angle-down" id="product-icon"></i>
+                        <div class="product-item">
+                            <div class="hello"></div>
+                            <ul class="items-ul">
+                                <li class="items-li"><a href="#" class=" bakery items">Bakery Items</a></li>
+                                <li class="items-li"><a href="#" class="items">Sweets Items</a></li>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li><a href="#">Hampers</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+        
+    </div>
+
+==========================================================================================================================
+							 C S S   C O D E S
+==========================================================================================================================
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*---------------- TOP  NAV  WITHOUT  SCROLLING  ------------------*/
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.main-top-nav{
+    width: 100%;
+    height: 170px;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}
+.logo-sec{
+    width: 100%;
+    height: 70%;
+    overflow-x: hidden;
+}
+
+.brand-name{
+    width:37%;
+    height: 290px;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%)
+
+}
+.nav-sec{
+    width: 100%;
+    height: 30%;
+    overflow-x: hidden;
+    align-content: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+}
+
+
+ul{
+    top: 140px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+        
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    color: #803A03;
+    letter-spacing: 2px;
+    transition: 0.4s ease;
+    font-weight: bold;
+    margin: 0 40px
+}
+li a:hover{
+    text-decoration: none;
+    color: #AF5107;
+}
+#product-icon{
+    color: #803A03;
+    margin: -28px !important;
+}
+
+
+.product-item{
+    width: 100%;
+    height: 160px;
+    transition: 0.4s ease;
+    margin-top: 15px;
+    background: #FaFaFa;
+    margin-left: 50%;
+    display: none;
+    border-top: 2px solid #803A03;
+    box-shadow: 1px 4px 10px 5px rgba(0, 0,0, 0.100)
+}
+.hello{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    background: #fafafa;
+    margin-top: -9px;
+    border-right: none !important;
+    border-bottom: none !important;
+    border: 2px solid #803A03;
+    transform: rotate(45deg);
+}
+
+.items-li{
+    position: relative;
+    top: -80px;
+    margin: 20px 13%
+}
+
+.items{
+    font-weight: lighter;
+}
+
+.product:hover .product-item {
+    display: block;
+}
+
+.product:hover #product-icon{
+    color: #AF5107;
+}
+
+/*======================================
+    TOP NAV RESPONIVE WITHOUT SCROLLING
+========================================*/
+@media only screen and (max-width:1250px){
+    body{
+        background: red;
+    }
+}

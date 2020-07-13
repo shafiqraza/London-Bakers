@@ -1,0 +1,566 @@
+
+/*================================================================================
+                            TOP SIGN IN SECTION
+================================================================================*/
+.top-nav-sec{
+    background: #000;
+    height: 50px
+}
+.top-info-sec a{
+    position: relative;
+    padding: 0 15px;
+    top: 10px
+}
+.top-info-sec a i{
+    color: #fff;
+    transition: 0.2s ease
+}
+.top-info-sec a i:hover{
+    color: #803A03
+}
+.top-info-sec p{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    top: 10px;
+    font-size: 0.7em !important
+}
+
+.top-sign-sec{
+    position: relative;
+    text-align: center;
+    top: 10px
+}
+
+.top-sign-sec a{
+    color: #fff;
+    font-size: 0.8em !important;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width:990px){
+    .top-info-sec{
+        display: none;
+    }
+    .top-sign-sec{
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+    
+}
+/*================================================================================
+                            NAVBAR SECTION
+================================================================================*/
+.container-fluid{
+    margin: 0 !important;
+    padding: 0!important;
+    overflow: hidden !important;
+}
+.navbar-light{
+    box-shadow: 1px 5px 15px rgba(0,0,0,0.10)
+}
+.navbar-toggler:hover{
+    color: #b95722
+}
+.logo{
+    width: 20%;
+}
+.navbar-nav{
+    text-align: center;
+    margin-left: 20%;
+}
+.navbar-brand img{
+    width: 150px;
+    margin-top: -10px;
+    
+}
+
+.nav-item{
+    margin: 0 20px!important;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: #803A03 !important;
+    text-transform: uppercase!important;
+}
+
+.nav-link:hover{
+    color: #b95722!important;
+}
+
+.dropdown-item:hover{
+    color: #b95722
+}
+
+@media only screen and (max-width:995px){
+    .navbar-nav{
+        margin-left: 0;
+    }
+}
+
+/*================================================================================
+                    ABOUT CONTENT SECTION
+================================================================================*/
+.main{
+    background: #dedfe0;
+}
+
+
+.col-md-12 h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+    letter-spacing: 5px
+}
+.col-md-12 p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    word-spacing: 5px
+}
+
+.parent{
+    margin-top: 100px
+}
+.bg-img-sec{
+    background: url(..//images/about/team/baker1.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.content-row{
+    margin-top: 10px;
+}
+.white{
+    background: #fff;
+}
+.white p{
+    padding: 150px 50px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: lighter !important;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 18px
+}
+.img1{
+    width: 106%;
+    height: 49%;
+}
+
+
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.inner{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    position: relative;
+    top: -100%;
+    opacity: 0;
+}
+.img1:hover .inner{
+    opacity: 1
+}
+
+.img1 p{
+    position: relative;
+    top: -150%;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline
+}
+.img1:hover p{
+    color: #000
+}
+.img2{
+    width: 106%;
+    height: 49%;
+    margin-top: 4%
+}
+
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.img2 p{
+    position: relative;
+    top: -160%;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline
+}
+.img2:hover p{
+    color: #000
+}
+
+.inner2{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.5);
+    position: relative;
+    top: -100%;
+    opacity: 0
+}
+
+.img2:hover .inner2{
+    opacity: 1
+}
+
+@media only screen and (max-width:767px){
+    .img1{
+        position: relative;
+        top: 10px;
+        left: -3%
+    }
+    .img2{
+        position: relative;
+        left: -3%
+    }
+    
+    .img2 p{
+        top: -150%;
+    } 
+}
+.bg-img2 img
+{
+    width: 103%;
+    background-position: center;
+    height: 100%
+}
+.info-sec{
+    background: #fff;
+}
+
+.first{
+    margin-top: 50px;
+}
+.info-sec p{
+    text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+@media only screen and (max-width:1198px){
+    .info-sec p{
+        font-size: 65%
+    }
+}@media only screen and (max-width:991px){
+    .info-sec p{
+        font-size: 58%;
+        margin-left: -12px!important;
+    }
+    .info-sec i{
+        margin: 10px!important;
+        padding: 5px!important
+    }
+}
+@media only screen and (max-width:767px){
+    .info-sec p{
+        font-size: 100%;
+        margin-left:1px!important
+    }
+    .info-sec i{
+        margin: 15px!important;
+        padding: 10px!important
+    }
+    
+    .bg-img2 img{
+        left: -15px!important;
+        width:  106%!important;
+        margin-top: 10px;
+        position: relative;
+        height: 400px;
+    }
+    
+}
+@media only screen and (max-width:412px){
+    .info-sec p{
+        font-size: 90%;
+        margin-left:1px!important
+    }
+    .info-sec i{
+        margin: 15px!important;
+        padding: 10px!important
+    }
+    
+    .bg-img2 img{
+        left: -15px!important;
+        width:  106%!important;
+        margin-top: 10px;
+        position: relative;
+        height: 400px;
+    }
+    
+}
+
+
+.info-sec h6{
+    margin-top: 300px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 10px
+}
+
+.info-sec i{
+    margin: 15px;
+    padding: 8px;
+    background: #000;
+    color:#fff;
+    border-radius: 50%;
+    font-size: 20px
+}
+i:hover{
+    color: #dedfe0;
+}
+.team-sec{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin: 0 1px
+}
+.in{
+    background: #fff
+}
+
+.in img{
+    width: 40%;
+    border-radius: 100%;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25%
+}
+
+.in h2{
+    margin-top: 250px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.in p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.in i{
+    margin: 30px 10px 10px 15px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.in i:hover{
+    color: #dedfe0;
+}
+
+
+/*====================================================
+                    CLIENT SECTION
+====================================================*/
+.client-sec{
+    position: relative;
+    top: 80px;
+    width: 103.5%;
+    left: -15px;
+    height: 100%!important;
+}
+.CS-heading{
+    text-align: center;
+}
+
+.CS-heading h3 {
+    letter-spacing:2px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 50px;
+    word-spacing: 5px;
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 50px;
+    text-decoration: underline
+}
+
+
+.col-xs-6{
+    height: 150px;
+
+}
+
+.first-client{
+    background: url(../images/client/image4.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.sec-client{
+    background: url(../images/client/image2.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.third-client{
+    background: url(../images/client/image6.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.forth-client{
+    background: url(../images/client/image7.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.five-client{
+    background: url(../images/client/image5.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.six-client{
+    background: url(../images/client/image8.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.col-sm-4{
+    margin-bottom: 50px
+}
+
+
+/*====================================================
+                FOOTER SECTION
+====================================================*/
+.footer-sec{
+    background: black;
+    height: 100%;
+    margin-top: 100px!important
+}
+.policy {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.policy a{
+    color: #fff;
+    transform: 0.2s ease;
+}
+
+.policy a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+
+.policy-haeding{
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.footer-mid-sec{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+
+.signin{
+    display: block;
+    margin-top: 20px;
+}
+
+#email {
+    border: 1px solid #fff;
+    outline-style: none;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    width: 40%;
+    height: 45px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-right: 10px
+}
+#submit-btn{
+    border: none;
+    outline-style: none;
+    padding: 8px;
+    background-color: aqua;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    width: 20%;
+    letter-spacing: 1px;
+    height: 45px;
+}
+
+.social-icons{
+    position: relative;
+    top: 25px;
+}
+
+.social-icons i{
+    margin: 0 2%;
+    padding: 0 2%;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.social-icons i:hover{
+    color: aqua
+}
+
+.footer-right-sec{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.footer-right-sec p{
+    margin-top: 20px;
+}
+.sec-add p{
+    margin-top: 40px
+}
+
+.dash{
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+    margin-top: 50px
+}
+
+.last-sec{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    white-space: 2px;
+    font-size: 0.7em
+}
+
+@media only screen and (max-width:767px){
+    .info{
+        width: 80%;
+    }
+}
+
